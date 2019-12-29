@@ -261,5 +261,5 @@ def callback(call):
 
 
 def main():
-    bot.start_polling()
+    bot.polling()
     
