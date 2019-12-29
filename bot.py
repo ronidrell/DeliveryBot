@@ -6,7 +6,7 @@ from menu_config import MENU
 
 # client = MongoClient()
 
-bot = telebot.TeleBot("939424451:AAFWun0jcSHpXEIOqLH9DP_2OzxRUgsCZ_w")
+bot = telebot.TeleBot(<TOKEN>)
 
 dishes_list = []
 for category in list(MENU.keys()):
